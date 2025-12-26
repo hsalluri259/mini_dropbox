@@ -20,6 +20,7 @@ API Server (Upload / Metadata)
 ```
 ## Components involved
 Here are some of the components that will be involved in building a local dropbox type system.
+```bash
 
 ✅ Chunked uploads
 ✅ Resumable uploads
@@ -30,7 +31,7 @@ Here are some of the components that will be involved in building a local dropbo
 ✅ Kafka-style async events
 ✅ Background workers
 ✅ CDN-like behavior (simulated)
-
+```
 ## Implementation plan
 ### 1️⃣ Setup local Virtual env 
 ```bash
