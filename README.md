@@ -2,6 +2,7 @@
 Building a mini dropbox to understand the concepts
 
 ## Architecture  
+```bash
 Client (CLI / Web)
    |
    v
@@ -16,7 +17,7 @@ API Server (Upload / Metadata)
    +--> Kafka / Redpanda (events)
            |
            +--> Workers (indexing, thumbnails)
-
+```
 ## Components involved
 Here are some of the components that will be involved in building a local dropbox type system.
 
