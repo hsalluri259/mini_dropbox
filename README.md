@@ -46,6 +46,7 @@ scripts/setup.sh
 
 👉 This alone gives us real Dropbox upload/download semantics.
 ### 3️⃣ FastAPI app structure (clean & scalable)
+```bash
 dropbox-mini/
 ├── docker-compose.yml
 ├── requirements.txt
@@ -57,6 +58,7 @@ dropbox-mini/
 ├──scripts/
    ├── setup.sh
 └── venv/
+```
 
 ### 4️⃣ Run FastAPI locally (no Docker)
 We now have:
